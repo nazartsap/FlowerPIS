@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./edit.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/laptop.ico">
+    <title>Изменение данных</title>
+</head>
+<body>
+    <div class="navigator">
+        <ul>
+            <li class="list active">
+                <b></b>
+                <b></b>
+                <a href="#">
+                    <span class="icon">
+                        <i class="fi fi-rr-home"></i>
+                    </span>
+                    <span class="title">Главная</span>
+                </a>
+            </li>
+            <li class="list">
+                <b></b>
+                <b></b>
+                <a href="#">
+                    <span class="icon">
+                        <i class="fi fi-rr-user"></i>
+                    </span>
+                    <span class="title">Профиль</span>
+                </a>
+            </li>
+            <li class="list">
+                <b></b>
+                <b></b>
+                <a href="#">
+                    <span class="icon">
+                        <i class="fi fi-rr-settings-sliders"></i>
+                    </span>
+                    <span class="title">Настройки</span>
+                </a>
+            </li>
+    
+
+            <ul class="mode">
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="/">
+                        <span class="icon">
+                            <i class="fi fi-rr-sign-out"></i>
+                        </span>
+                        <span class="title">Выход</span>
+                    </a>
+                </li>
+                <li class="list mode">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fi fi-rr-moon"></i>
+                        </span>
+                        <span class="title">Темная тема</span>
+                    </a>
+
+                    <div class="mode-toggle">
+                        <span class="swicth"></span>
+                    </div>
+                </li>
+            </ul>
+            
+        </ul>
+    </div>
+    
+    <div class="toggle">
+        <div class="open">
+            <i class="fi fi-rr-menu-burger"></i>
+        </div>
+        <div class="close">
+            <i class="fi fi-rr-cross"></i>
+        </div>
+    </div>
+
+    <div class="container-form">
+            <div class="main">
+                <button class="form-button" type="submit">Выбрать изображение</button>
+                <image class="img" width="200px" src="/assets/user.png"></image>
+                <span class="font">Том</span>
+                <span class="text">tom@mail.ru</span>
+            </div>
+            
+            <div class="title-form">
+                <h4 class="text">Изменение профиля</h4>
+                <div class="field">
+                    <div class="row">
+                        <div class="row1">
+                            <label class="labels">Имя</label>
+                            <input type="text" class="form-control" value="">
+                        </div>
+                        <div class="row2">
+                            <label class="labels">Фамилия</label>
+                            <input type="text" class="form-control" value="">
+                        </div>
+                    </div>
+    
+                    <form>
+                        <label class="checkbox">
+                            <input type="radio" checked name="raz">
+                                Мужчина
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="radio" name="raz">
+                                Женщина
+                            <span class="checkmark"></span>
+                        </label>
+                    </form>
+                    
+                    <div class="row">
+                        <div class="pole">
+                            <label class="labels">Телефон</label>
+                            <input type="text" class="form-control" placeholder="Введите номер телефона" value="">
+                        </div>
+    
+                        <div class="pole">
+                            <label class="labels">Страна</label>
+                            <input type="text" class="form-control" value="">
+                        </div>
+    
+                        <div class="pole">
+                            <label class="labels">Дата рождения</label>
+                            <input type="text" class="form-control" value="">
+                        </div>
+    
+                        <div class="pole">
+                            <label class="labels">Email</label>
+                            <input type="text" class="form-control"value="">
+                        </div>
+    
+                    </div>
+    
+                    <div class="row">
+                        <div class="row3">
+                            <label class="labels">Текущий пароль</label>
+                            <input type="text" class="form-control" value="">
+                        </div>
+                        <div class="row4">
+                            <label class="labels">Изменить пароль</label>
+                            <input type="text" class="form-control" value="">
+                        </div>
+                    </div>
+    
+                </div>
+                
+                    <div class="main1">
+                        <button class="form-button" type="button">Сохранить изменения</button>
+                    </div>
+
+            </div>
+        </div>
+        
+    <script src="./main/ed_prof.js"></script>
+
+</body>
+</html>
