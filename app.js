@@ -42,6 +42,10 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
+
+app.get("/cart", (req, res) => {
+    res.render("cart")
+})
 //connect flassh
 app.use(flash());
 

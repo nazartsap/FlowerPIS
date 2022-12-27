@@ -139,6 +139,11 @@ header .fa-bars{
     line-height: 1.5;
 }
 
+.about {
+
+    color: #7a7c7f; font-size: 29px; font-family: «Libre Baskerville», serif; line-height: 45px; text-align: center; text-shadow: 0 1px 1px #fff; padding-top: 20px;
+}
+
 .about .row{
     display: flex;
     align-items: center;
@@ -283,7 +288,7 @@ header .fa-bars{
     color:#fff;
 }
 
-.products .box-container .box .image .icons .cart-btn{
+.products .box-container .box .image .icons {
     border-left: .1rem solid #fff7;
     border-right: .1rem solid #fff7;
     width:100%;
@@ -466,18 +471,25 @@ header .fa-bars{
     color:var(--pink);
 }
 
+.cart-btn{
 
+    width: 50%;
+    background-color: rgb(255, 248, 248);
+    cursor: pointer;
+   }
 
+nav li span{
+ padding-left: 5px;
+}
+.cart ion-icon {
+    vertical-align: bottom;
+    font-size: 20px;
 
-
-
-
-
-
-
-
-
-
+}
+.cart a{
+    background-color: #999;
+    
+}
 
 
 /* media queries  */
