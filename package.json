@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "go": "nodemon app.js"
+    
   },
   "keywords": [],
   "author": "",

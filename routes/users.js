@@ -9,7 +9,11 @@ const passport = require('passport');
 //user model
 const User = require('../models/User');
 
+
+
+router.get('/', (req, res) => res.render('start'));
 //login
+
 router.get('/', (req, res) => res.send('index'));
 
 //regist

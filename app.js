@@ -28,6 +28,7 @@ mongoose.connect(db, {useNewUrlParser: true })
 .catch(err => console.log(err));
 
 
+
 //parser анализатор тела 
 app.use(express.urlencoded({extended: false}));
 
@@ -43,9 +44,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-app.get("/cart", (req, res) => {
-    res.render("cart")
-})
+
+
 //connect flassh
 app.use(flash());
 
